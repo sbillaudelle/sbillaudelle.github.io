@@ -5,8 +5,8 @@ url: "http://example.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Sebastian's ¢2
-  avatar: avatar.png
+  title: Sebastian's Blog
+  avatar: avatar.jpg
   gravatar: # email md5 hash
   description: "A website with blog posts and pages" # used by search engines
   
@@ -27,7 +27,7 @@ theme:
   facebook: 
   flickr: 
   github: "sbillaudelle"
-  google_plus: "sbillaudelle"
+  google_plus: "+sbillaudelle"
   instagram: 
   linkedin:  # full URL
   pinterest: 
