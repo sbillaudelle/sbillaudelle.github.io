@@ -4,9 +4,17 @@ layout: default
 
 <div class="home">
 
-  {% if site.theme.header_text %}
-  <div class="call-out">{{ site.theme.header_text }}</div>
-  {% endif %}
+	{% if site.theme.header_text %}
+	<div class="call-out">
+		<div class="call-out-content">
+			{{ site.theme.header_text }}
+
+			<div class="social">
+				{% include icons.html %}
+			</div>
+		</div>
+	</div>
+	{% endif %}
 
   <div class="posts">
     {% for post in paginator.posts %}

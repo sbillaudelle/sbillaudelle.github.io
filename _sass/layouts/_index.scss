@@ -1,12 +1,39 @@
+%vertical-align {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
 // call out feature
 .call-out {
-  @extend %padding-regular;
   display: inline-block;
   width: 100%;
   background: none repeat scroll 0% 0% $header-desc-background-color;
+  background: url(/img/pixel-pattern.png) fixed, url(/img/banner.jpg) center;
   font-size: 1.2em;
   text-align: center;
   color: $header-desc-text-color;
+  height: 320px;
+
+  .call-out-content {
+	  @extend %vertical-align;
+  }
+
+  .social {
+	  margin-top: 1.0em;
+	  a {
+		  color: white;
+		  font-size: 1.5em;
+	  }
+
+	  li {
+		  display: inline;
+		  list-style-type: none;
+		  margin: .1em;
+	}
+  }
 }
 .call-out p:last-child {
   margin-bottom: 0;
