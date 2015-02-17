@@ -18,6 +18,8 @@ body {
   float: left;
   width: 100%;
 
+  z-index: 99;
+
   height: 80px;
 
   position: fixed;
@@ -55,6 +57,12 @@ body {
     line-height: 1.5;
   }
 
+  @media(max-width: 1024px) {
+	  .site-title {
+		  display: none;
+	  }
+  }
+
   .site-nav {
 	  @extend %vertical-align;
     ul {
@@ -69,7 +77,7 @@ body {
 	  @extend %vertical-align;
       display: inline;
       float: left;
-      margin-right: 0.4em;
+      margin-left: 0.8em;
     }
   }
 }
