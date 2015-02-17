@@ -5,7 +5,7 @@ url: "http://example.com" # the base hostname & protocol for your site
 # THEME-SPECIFIC CONFIGURATION
 theme:
   # Meta
-  title: Type Theme
+  title: Sebastian's ¢2
   avatar: avatar.png
   gravatar: # email md5 hash
   description: "A website with blog posts and pages" # used by search engines
@@ -20,23 +20,22 @@ theme:
   
   # Icons
   rss: false
-  email_address: # full email address, e.g. "sam@example.com"
+  email_address: "sbillaudelle@gmail.com"
   behance:
   bitbucket: 
   dribbble: 
   facebook: 
   flickr: 
-  github: "rohanchandra/type-theme"
-  google_plus: 
+  github: "sbillaudelle"
+  google_plus: "sbillaudelle"
   instagram: 
   linkedin:  # full URL
   pinterest: 
   reddit: 
-  soundcloud: 
+  soundcloud: "sbillaudelle"
   stack_exchange:  # full URL
   steam: 
   tumblr: 
-  twitter: "twitter"
   wordpress: 
   youtube: 
   
