@@ -22,7 +22,7 @@ My friend and colleague Paxon was moving to San Francisco. He told me something 
 ![Yours truly.](/img/posts/2015-02-18-road-trip-to-san-diego/DSC01825.jpg)
 ![Again.](/img/posts/2015-02-18-road-trip-to-san-diego/DSC01826_01.jpg)
 ![Water and stones. Nothing to see here.](/img/posts/2015-02-18-road-trip-to-san-diego/DSC01832.jpg)
-![Water and cost.](/img/posts/2015-02-18-road-trip-to-san-diego/DSC01838.jpg)
+![Water and coast.](/img/posts/2015-02-18-road-trip-to-san-diego/DSC01838.jpg)
 ![Elephant seals! How cool is that?](/img/posts/2015-02-18-road-trip-to-san-diego/DSC01899.jpg)
 ![Big seal pimp enjoying the sun.](/img/posts/2015-02-18-road-trip-to-san-diego/DSC01902.jpg)
 ![Yes, that is California. I would like to be a cow here. Moooh.](/img/posts/2015-02-18-road-trip-to-san-diego/DSC01917_01.jpg)
