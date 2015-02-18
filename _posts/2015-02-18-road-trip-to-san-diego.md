@@ -3,6 +3,7 @@ layout: post
 title: "Road Trip to San Diego"
 feature-img: "img/posts/2015-02-18-road-trip-to-san-diego/teaser.jpg"
 description: ""
+comments: true
 category: 
 tags: []
 ---
