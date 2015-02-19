@@ -27,8 +27,17 @@ var Image = new Class({
 		var shade = new Element('div.image-shade');
 		shade.fade('hide');
 		
+		var dialog = new Element('div.image-dialog');
+		dialog.inject(shade);
+
 		var fatty = original.clone();
-		fatty.inject(shade);
+		fatty.inject(dialog);
+
+		var label = new Element('span.image-label');
+		label.set('text', original.get('alt'));
+		var dummy = new Element('div.image-label-container');
+		label.inject(dummy);
+		dummy.inject(dialog);
 
 		shade.inject($(document.body));
 
@@ -44,11 +53,6 @@ var Image = new Class({
 
 		fatty.addEvent('click', function() {
 			shade.fade('out');
-		});
-
-		fatty.position({
-			relativeTo: shade,
-			position: 'center'
 		});
 	}
 });

@@ -50,7 +50,7 @@ header {
 
 article div.image-wrapper {
 	position: relative;
-	width: calc(100% - 10px);
+	width: calc(100% - 4px);
 	margin: 10px 2px;
 	border-radius: 3px;
 	overflow: hidden;
@@ -108,12 +108,28 @@ div.image-shade {
 	cursor: pointer;
 }
 
-div.image-shade img {
-	position: absolute;
-	top: 50%;
-	left: 50%;
+div.image-shade div.image-dialog img {
 	max-width: 90%;
-	max-height: 90%;
-	transform: translate(-50%, -50%);
+	max-height: 80%;
+	box-shadow: 0px 2px 8px rgba(0, 0, 0, .9);
+}
+
+div.image-shade div.image-dialog {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	transform: translate(0, -50%);
+	text-align: center;
+}
+
+div.image-shade div.image-label-container {
+	margin-top: .5em;
+}
+
+div.image-shade span.image-label {
+	background-color: white;
+	padding: 1px 12px;
+	border-radius: 2px; 
+	font-size: .9em;
 	box-shadow: 0px 2px 8px rgba(0, 0, 0, .8);
 }

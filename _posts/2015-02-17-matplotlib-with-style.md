@@ -1,6 +1,5 @@
 ---
 layout: post
-published: false
 title: "Matplotlib With Style"
 feature-img: "img/posts/2015-02-17-matplotlib-with-style/teaser.jpg"
 description: ""
