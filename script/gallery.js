@@ -33,10 +33,10 @@ var Image = new Class({
 		var fatty = original.clone();
 		fatty.inject(dialog);
 
-		var label = new Element('span.image-label');
-		label.set('text', original.get('alt'));
+		var caption = new Element('span.image-label');
+		caption.set('text', original.get('alt'));
 		var dummy = new Element('div.image-label-container');
-		label.inject(dummy);
+		caption.inject(dummy);
 		dummy.inject(dialog);
 
 		shade.inject($(document.body));
@@ -49,6 +49,14 @@ var Image = new Class({
 
 		shade.addEvent('click', function() {
 			shade.fade('out');
+		});
+
+		caption.addEvent('click', function() {
+			shade.fade('out');
+		});
+
+		label.addEvent('click', function() {
+			shade.fade('in');
 		});
 
 		fatty.addEvent('click', function() {

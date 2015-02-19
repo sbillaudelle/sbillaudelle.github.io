@@ -127,6 +127,8 @@ div.image-shade div.image-label-container {
 }
 
 div.image-shade span.image-label {
+	display: inline-block;
+	max-width: 90%;
 	background-color: white;
 	padding: 1px 12px;
 	border-radius: 2px; 
