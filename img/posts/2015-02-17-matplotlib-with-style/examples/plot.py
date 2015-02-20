@@ -1,3 +1,6 @@
+#! /usr/bin/python
+# -*- coding: utf-8 -*-
+
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -8,6 +11,7 @@ plt.plot(x, np.sin(x), label="$\sin(x)$")
 plt.plot(x, np.cos(x), label="$\sin(x)$")
 
 plt.xlim((np.min(x), np.max(x)))
+plt.ylim((-1.1, 1.1))
 
 plt.xlabel("$x$")
 plt.ylabel("$y$")
@@ -19,6 +23,7 @@ data = np.random.normal(0, 1, 100)
 
 plt.hist(data, bins=10)
 
-plt.xlabel("Data")
+plt.xlabel(r"Data")
 plt.ylabel("$\#$")
+
 plt.savefig('hist.png', bbox_inches='tight', dpi=200)
