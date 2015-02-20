@@ -32,7 +32,7 @@ The most important component of the color scheme is of course the coloring of th
 
 This palette was taken from the `matplotlibrc` this style is based on. However, the background color was set to white instead of grey. This does not only make sense for printing, but also increases contrast in general. Lines and grid are kept in a light grey tone in order not to distract from the actual content.
 
-## Usage
+### Usage
 
 My `matplotlibrc` is [hostet on GitHub](https://github.com/sbillaudelle/matplotlibrc). Alternatively, you can just grab the [latest version of the file](https://raw.githubusercontent.com/sbillaudelle/matplotlibrc/master/matplotlibrc). I will try to keep it up to date and would love to get some feedback from you!
 
