@@ -38,13 +38,19 @@ header {
     color: $feature-image-text-color;
     background-size: $feature-image-size;
     margin-bottom: 0;
-    padding: $padding-large/2.5 $padding-large;
+    padding: $padding-large/4 $padding-large;
     .meta {
       color: rgba($feature-image-text-color, .7);
     }
   }
   .post-content {
+	box-sizing: content-box;
+	left: 0px;
+	right: 0px;
+	margin-left: auto;
+	margin-right: auto;
     @extend %padding-regular;
+	max-width: 1280px;
   }
 }
 
