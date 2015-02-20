@@ -36,4 +36,4 @@ This palette was taken from the `matplotlibrc` this style is based on. However, 
 
 My `matplotlibrc` is [hostet on GitHub](https://github.com/sbillaudelle/matplotlibrc). Alternatively, you can just grab the [latest version of the file](https://raw.githubusercontent.com/sbillaudelle/matplotlibrc/master/matplotlibrc). I will try to keep it up to date and would love to get some feedback from you!
 
-To use the `matplotlibrc` from the repo, just copy it to either `~/.config/matplotlib/matplotlibrc' or `~/.matplotlib/matplotlibrc` depending on your system and package version.
+To use the `matplotlibrc` from the repo, just copy it to either `~/.config/matplotlib/matplotlibrc` or `~/.matplotlib/matplotlibrc` depending on your system and package version.
