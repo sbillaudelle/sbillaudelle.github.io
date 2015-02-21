@@ -39,7 +39,7 @@ theme:
   
   # Scripts
   google_analytics: 'UA-38002709-1' # tracking id, e.g. "UA-000000-01"
-  disqus_shortname:
+  disqus_shortname: 'sbillaudelle'
   
   # Localization strings
   str_follow_on: "Follow on"
