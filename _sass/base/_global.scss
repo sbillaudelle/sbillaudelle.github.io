@@ -112,3 +112,20 @@ img[align=left] {
 img[align=right] {
   margin-left: 3%;
 }
+
+pre {
+	padding: 3px 8px;
+	margin: .5em 1em;
+	background-color: #f8f8f8;
+	border: 1px solid #d0d0d0;
+}
+
+pre span {
+}
+
+span.lineno {
+	margin-left: -8px;
+	padding: 3px 8px;
+	border-right: 1px solid #d0d0d0;
+	background-color: #f0f0f0;
+}

@@ -22,7 +22,11 @@ I am using the `pgf` backend which has been introduced to `matplotlib` quite lat
 
 For printing purposes, I primarily use fonts from the amazing open fonts project [Linux Libertine](http://www.linuxlibertine.org/). This of course is debatable -- especially for on-screen viewing. For presentations, I mostly switch to Mozilla's [Fira Sans](https://www.mozilla.org/en-US/styleguide/products/firefox-os/typeface/).
 
-Caveat: the `pgf` backend does not support `plt.show()` to show a live version of the plot. I simply work around this issue by writing the output to a file.
+Caveat: the `pgf` backend does not support `plt.show()` to show a live version of the plot. I simply work around this issue by writing the output to a file. Alternatively, you can set a different backend programmatically using
+
+{% highlight python %}
+matplotlib.use('GtkAgg') # or any other backend
+{% endhighlight %}
 
 ### Color Scheme
 
