@@ -26,4 +26,4 @@ plt.hist(data, bins=10)
 plt.xlabel(r"Data")
 plt.ylabel("$\#$")
 
-plt.savefig('hist.png', bbox_inches='tight', dpi=200)
+plt.savefig('hist.pgf', bbox_inches='tight', dpi=200)

@@ -141,3 +141,14 @@ div.image-shade span.image-label {
 	font-size: .9em;
 	box-shadow: 0px 2px 8px rgba(0, 0, 0, .8);
 }
+
+article ul {
+	padding: .2em 0em .2em 1em;
+}
+
+article ul li {
+	list-style: disc !important;
+	margin-left: 1em;
+	margin-top: .3em;
+	margin-bottom: .3em;
+}
