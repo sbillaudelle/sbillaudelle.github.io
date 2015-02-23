@@ -20,6 +20,9 @@ In your plotting script, you don't have to change anything except for the file's
 import numpy as np
 import matplotlib.pyplot as plt
 
+# set up figure size
+plt.figure(figsize=(5.8, 3.0))
+
 # do some plotting here
 x = np.linspace(-2, 2, 1e3)
 plt.plot(x, x**2)
