@@ -14,6 +14,14 @@ By default matplotlib uses its own, custom text and math rendering system called
  - Everything is rendered by LaTeX. And that is even in the same run as the rest of your document. This ensures that your figures and text look and feel consistent.
  - LaTeX will use the same fonts for your plots that you have selected for everything else in the document. You don't even have to care about that when you generate your plot. To be precise, it uses the _sans font_ for displaying your labels and whichever _math font_ you have chosen for formulas and other mathematical expressions.
 
+To let the PGF backend use your document's fonts, you need to add just a single line to your `matplotlibrc` -- or set those options from within your script:
+
+{% highlight python linenos %}
+pgf.rcfonts : False
+{% endhighlight %}
+
+You can configure a LaTeX preamble for `.pdf` and `.png` output generated with the PGF backend. This way, your fonts of choice can be set up for standalone plots. This however will not have any influence on plots embedded into your LaTeX files. In my previous post [Matplotlib with Style](sbillaudelle.de/2015/02/20/matplotlib-with-style.html), I introduced my custom styling including a reasonable set of fonts. You might want to check that out!
+
 In your plotting script, you don't have to change anything except for the file's extension. I would recommend to save the figure as a `.pgf` as well as a `.pdf` file. This way you can preview the plot by simply opening the PDF and use the other one for embedding.
 
 {% highlight python linenos %}
