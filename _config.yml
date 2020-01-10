@@ -1,9 +1,10 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://sbillaudelle.de" # the base hostname & protocol for your site
+title: Sebastian Billaudelle
 
 # THEME-SPECIFIC CONFIGURATION
-theme:
+theme_settings:
   # Meta
   title: Sebastian Billaudelle
   avatar: avatar.jpg
