@@ -60,6 +60,7 @@ theme_settings:
 # BUILD SETTINGS
 markdown: kramdown
 highlighter: rouge
+plugins: [jekyll-paginate]
 sass:
   sass_dir: _sass
   style: :compressed
